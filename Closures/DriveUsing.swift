@@ -4,16 +4,13 @@ func drive(_ driving: () -> String) {
 	print("We're there!")
 }
 
-let safely = { () -> String in
-	return "I'm being a considerate driver"
+drive() {
+    return "I'm being a considerate driver"
 }
 
-let extraSafely = {
+drive {
 	"I'm being an extra considerate driver"
 }
-
-drive(safely)
-drive(extraSafely)
 
 // Let's get in the car
 // I'm being a considerate driver
