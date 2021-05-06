@@ -21,3 +21,11 @@ func validatePassword(_ password: String) throws -> Bool {
 
   return true
 }
+
+do {
+    if try validatePassword("12345678") {
+        print("That password is good!")
+    }
+} catch {
+    print("You can't use that password!")
+}
