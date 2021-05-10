@@ -9,7 +9,7 @@ class Dog {
 }
 class Labrador: Dog {
     init(name: String) {
-        super.init(name: name, breed: "Labradore")
+        super.init(name: name, breed: "Labrador")
     }
 
 }
